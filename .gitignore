@@ -1,0 +1,26 @@
+# Ignora archivos del sistema Mac 
+.DS_store
+
+# Ignora la carpeta node_modules
+node_modules/
+
+# Ignora todos los archivos de texto
+*.txt
+
+# Ignora los archivos relacionados a API keys
+.env
+
+# Ignora archivos de configuración SASS
+.sass-cache
+
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
