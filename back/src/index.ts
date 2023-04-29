@@ -12,6 +12,7 @@ app.get('/ping', (_req, res) => {
   res.send('pong')
 })
 
+// siii
 app.use('/api/diaries', DiarieRouter)
 
 app.listen(PORT, () => {
